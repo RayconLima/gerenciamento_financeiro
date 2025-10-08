@@ -13,7 +13,8 @@ class TransacaoSeeder extends Seeder
      */
     public function run(): void
     {
-        Transacao::factory(10)->create();
+        // Transacao::factory(10)->create();
+
         // $transaction = Transacao::create([
         //     'data' => '2023-10-01',
         //     'tipo' => 'entrada',
